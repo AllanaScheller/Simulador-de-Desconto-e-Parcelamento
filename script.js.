@@ -1,1 +1,4 @@
-document.addEvent
+document.addEventListener('DOMContentLoaded', function () {
+    // Utilitário para formatar moeda (R$)
+    function moedaBR(valor) {
+        return mew intl.NumberFormat('pt-BR', { style: 'currency', currency:})
